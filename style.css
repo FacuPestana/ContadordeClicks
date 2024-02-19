@@ -1,0 +1,28 @@
+
+body{
+    background-color: rgb(198, 255, 198);
+    
+}
+.protest-riot-regular {
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+#areaContador {
+    background-color: rgb(aqua  );
+    font-size: 40px;
+    font-weight: bold;
+    font-family: impact;
+    margin: 10px;
+}
+
+#botonClick,#btnClear {
+    background-color: aqua;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: impact;
+    border:none;
+    border-radius: 25%;
+    margin: 10px;
+}
