@@ -1,33 +1,55 @@
+body {
+  background-color: rgb(157, 126, 4);
+  margin: 2mm;
+  transition: background-color 0.3s ease;
+  font-family: Arial, sans-serif;
+  text-align: center;
 
-body{
-    background-color: rgb(0, 0, 0);
-    margin:2mm;
-    
 }
+
 .protest-riot-regular {
-    font-family: "Protest Riot", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
+  font-family: "Protest Riot", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
-  #areaContador{
-    background-color: rgb(0, 0, 0);
-    font-size: 40px;
-    font-weight: bold;
-    font-family: Impact;
-    border-radius: 25px;
-    color: aliceblue;
-    
-  
-  }
+#areaContador {
+  background-color: rgb(252, 220, 94);
+  font-size: 40px;
+  font-weight: bold;
+  font-family: Impact;
+  border-radius: 25px;
+  color: rgb(0, 0, 0);
 
-  #botonClick, #botonClick2,#btnClear{
-    background-color: black;
-    color: aliceblue;
-    font-size: 30px;
-    font-weight: bold;
-    font-family: impact;
-    border-color: aliceblue;
-    border-radius: 25%;
-    margin: 10px;
+}
+
+#botonClick,
+#botonClick2,
+#btnClear {
+  background-color: rgb(255, 255, 0);
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  font-weight: bold;
+  font-family: impact;
+  border-color: rgb(0, 0, 0);
+  border-radius: 25%;
+  margin: 10px;
+
+}
+
+#imgclick {
+  background-color: rgb(157, 126, 4);
+  border-radius: 25%;
+  width: 500px;
+}
+
+#navbar {
+  background-color: rgb(255, 255, 0);
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  font-weight: bold;
+  font-family: impact;
+  border-color: rgb(0, 0, 0);
+  border-radius: 20%;
+  margin: 10px;
 }
